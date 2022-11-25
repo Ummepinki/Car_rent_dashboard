@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-color: #F08080;
+  --body-bg: #F8F9F9;
+  --card-01-bg: linear-gradient(#ef621c, #e1424e);
+  --card-02-bg: linear-gradient(#01d293, #56c57a);
+  --card-03-bg: #725cff;
+  --card-04-bg: #2884ff;
+  --heading-color: #fff;
+  --small-text-color: #808191;
+  --recommend-car01-bg: #e1dfa4;
+  --recommend-car02-bg: #e3ecf1;
+  --recommend-car03-bg: #f4e3e5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: "DM Sans", sans-serif;
+  background: var(--body-bg);
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color:unset;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main__layout{
+ margin-left: 270px;
 }
