@@ -1,6 +1,6 @@
 const navLink = [
   {
-    path: "/dashboard",
+    path: "/basic",
     icon: "ri-clipboard-line",
     display: "Basic Information",
   },

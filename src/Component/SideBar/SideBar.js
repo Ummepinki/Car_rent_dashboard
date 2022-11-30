@@ -16,19 +16,27 @@ const SideBar = () => {
         <div className="menu">
           <ul className="nav__list">
             {navLink.map((item, index) => (
-              <li className="nav__item">
-                <NavLink to={item.path}></NavLink>
+              <li className="nav__item" key={index}>
+                <NavLink
+                  to="/dashboard"
+                  className={(navClass) =>
+                    navClass.isActive ? "nav__active nav__link" : "nav__link"
+                  }
+                ></NavLink>
                 <span>
                   <i className={item.icon}></i>
                 </span>
                 {item.display}
+
                 <i class="ri-add-line"></i>
               </li>
             ))}
           </ul>
         </div>
         <div className="sidebar__bottom">
-          <p>Found car:12324</p>
+          <p>
+            Found car: <span>12 324</span>
+          </p>
           <button className="bottom__button">Show</button>
           <span>
             <i class="ri-close-line"></i>

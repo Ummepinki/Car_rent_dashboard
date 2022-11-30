@@ -7,6 +7,8 @@
     background: var(--primary-color);
     position: fixed;
     padding-left: 30px;
+ 
+    
 }
 .sidebar__top{
     width: 100%;
@@ -40,7 +42,14 @@
     flex-direction: column;
     height: calc(100% - 5%);
     margin-top: 50px;
+    margin: 4px;
+    padding: 3px;
 }
+.sidebar__content i {
+    margin-left: 3px;
+    padding-left: 3px;
+}
+
 .menu{
    height: 80%;
 }
@@ -66,4 +75,28 @@
    align-items: center;
    justify-content: center;
    color:salmon;
+}
+.sidebar__bottom p span{
+  
+    font-weight: bold;
+}
+
+.nav__link{
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+    cursor: pointer;
+}
+.nav__list{
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    cursor: pointer;
+}
+.nav__link i{
+    color: var(--secondary-color);
+}
+.nav__active{
+    padding: 10px;
+    
 }

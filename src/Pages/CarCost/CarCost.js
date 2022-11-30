@@ -1,7 +1,7 @@
 import React from "react";
 
 const CarCost = () => {
-  return <div>car</div>;
+  return <div>hello</div>;
 };
 
 export default CarCost;

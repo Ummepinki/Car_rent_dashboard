@@ -1,0 +1,60 @@
+[
+    {
+       
+        "name": "Ford explorer(2018)",
+        "img": "https://i.ibb.co/5YrRKWT/car-01.png",
+       "Mileage":"49 000 KM",
+       "Location": "Dnipro",
+       "Engine": "3.5 diesel",
+       "Transmission":"Machine",
+       "Price": "17 900$"
+    },
+    {
+        "name": "Honda CR.V(2019)",
+        "img": "https://i.ibb.co/wJhQmhR/car-02.png",
+        "Mileage":"22 000 KM",
+       "Location": "Dnipro",
+       "Engine": "2.0 benzine",
+       "Transmission":"Machine",
+       "Price": "23 500$"
+    },
+    {
+        "name": "Audi TT(2014)",
+        "img": "https://i.ibb.co/98c3RM7/car-03.png",
+        "Mileage":"49 000 KM",
+       "Location": "Dnipro",
+       "Engine": "2.4 benzine",
+       "Transmission":"Machine",
+       "Price": "79 300$"
+    },
+    {
+ 
+        "name": "Ford Ranger(2021)",
+        "img": "https://i.ibb.co/MfzTb6W/car-04.png",
+        "Mileage":"9000 KM",
+       "Location": "Dnipro",
+       "Engine": "4.0 diesel",
+       "Transmission":"Machine",
+       "Price": "44 900$"
+    },
+    {
+  
+        "name": "Mustang GT(2016)",
+        "img": "https://i.ibb.co/DwvFjhQ/car-05.png",
+        "Mileage":"22 000 KM",
+       "Location": "Dnipro",
+       "Engine": " 6.0 benzine",
+       "Transmission":"Machine",
+       "Price": "16 200$"
+    },
+    {
+        
+        "name": "BMW X7 (2019)",
+        "img": "https://i.ibb.co/gMXVhK3/car-06.png",
+        "Mileage":"49 000 KM",
+       "Location": "Dnipro",
+       "Engine": "3.5 diesel",
+       "Transmission":"Machine",
+       "Price": "69 000$"
+    }
+]
